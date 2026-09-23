@@ -421,6 +421,10 @@ h3 {
   gap: 1.5rem;
 }
 
+.work-panel[hidden] {
+  display: none;
+}
+
 .project-entry,
 .service-item,
 .overview-card {
