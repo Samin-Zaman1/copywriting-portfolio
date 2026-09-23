@@ -405,7 +405,8 @@ h3 {
   margin-top: 2.5rem;
 }
 
-#projects .project-entry:first-child {
+#projects .project-entry:first-child,
+#reviews .project-entry:first-child {
   border-top: none;
   padding-top: 0;
 }
