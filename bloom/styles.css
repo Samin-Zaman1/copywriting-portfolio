@@ -39,6 +39,12 @@ img { max-width: 100%; display: block; }
 .brand {
   font-weight: 800;
   letter-spacing: 0.08em;
+  display: inline-flex;
+  align-items: center;
+}
+.brand img {
+  width: 148px;
+  height: auto;
 }
 nav {
   display: flex;
