@@ -194,6 +194,10 @@ h3 {
   margin: 0 0 0.6rem;
 }
 
+.project-title-link:hover {
+  color: var(--accent);
+}
+
 .lead,
 .note,
 .service-item p,
