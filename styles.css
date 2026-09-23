@@ -360,20 +360,35 @@ h3 {
   scrollbar-width: thin;
 }
 
-.work-tabs a {
+.work-tab {
+  appearance: none;
   flex: 0 0 auto;
   padding: 0.7rem 1rem;
+  border: 0;
   border-bottom: 2px solid transparent;
+  background: transparent;
   color: var(--muted);
+  font: inherit;
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
+  cursor: pointer;
 }
 
-.work-tabs a:hover,
-.work-tabs a:focus-visible {
+.work-tab:hover,
+.work-tab:focus-visible,
+.work-tab.is-active {
   color: var(--accent);
   border-bottom-color: var(--accent);
+}
+
+.work-tab:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.work-tab + .work-tab {
+  margin-left: 0.35rem;
 }
 
 .work-writing {
